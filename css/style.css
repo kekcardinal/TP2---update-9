@@ -177,6 +177,10 @@ table {
         flex-flow: column wrap;
     }
 
+    h1 {
+        font-size: 30pt;
+    }
+
     .ligne-education {
         flex-flow: column wrap;
     }
@@ -184,4 +188,25 @@ table {
     header {
         margin-top: 250px;
     }
+
+    .aside p {
+        font-size: 13pt;
+    }
+
+    /* Padding des tableaux dans carriere + aside  */
+    .aside,
+    .carriere-tableau-1,
+    .carriere-tableau-2,
+    .carriere-tableau-3,
+    table {
+        padding: 10px;
+        border-spacing: 0;
+    }
+
+    /* Parametres pour le texte d'introduction dans index.html */
+    #texte_intro {
+        font-size: 15pt;
+        padding: 25px;
+    }
+
 }

@@ -45,3 +45,14 @@
      color: #f9f7f7;
      border-color: white;
  }
+
+ /* Lorsque l7 ecran est de 600px le form se reduit pour permettre de les afficher a l'ecran (sur cellulaire)*/
+
+ @media screen and (max-width: 600px) {
+
+     input,
+     select {
+         width: 200px;
+     }
+
+ }

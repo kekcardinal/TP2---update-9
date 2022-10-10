@@ -76,7 +76,8 @@
 
 @media screen and (max-width: 720px) {
 
-    .image_profil {
+    .image_profil,
+    .image_contact {
         /* Settings d'image de profil*/
         /*Dimensions des images*/
         height: 250px;
@@ -108,7 +109,8 @@
 
 @media screen and (max-width: 600px) {
 
-    .image_profil {
+    .image_profil,
+    .image_contact {
         /* Settings d'image de profil*/
         /*Dimensions des images*/
         height: 200px;
@@ -120,6 +122,9 @@
         /*Dimensions des images*/
         height: 200px;
         width: 200px;
+        /*Met un cercle autour des images avec le padding*/
+        border-radius: 50%;
+        padding: 25px;
     }
 
     .image_education {
