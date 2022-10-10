@@ -6,6 +6,8 @@ nav {
     top: 0;
 }
 
+
+
 .navigation {
     margin: 0;
     padding: 0;
@@ -88,6 +90,11 @@ nav a:hover:not(.active) {
 /* Lorsque l ecran est de 720px le navbar se reduit et devient en flex-flow column*/
 
 @media screen and (max-width:720px) {
+    nav {
+        top: 0;
+        position: relative;
+    }
+
     .navigation ul {
         position: relative;
         display: flex;
@@ -96,8 +103,9 @@ nav a:hover:not(.active) {
         padding: 0;
     }
 
-    nav {
-        position: relative;
+
+    header {
+        padding-top: 200px;
     }
 
     /* Enleve le padding lorsque le navbar est en 720 px*/

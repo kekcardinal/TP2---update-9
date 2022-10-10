@@ -102,3 +102,30 @@
         width: 250px;
     }
 }
+
+
+/* Lorsque l ecran est de 600px les images se reduise pour permettre de les afficher a l'ecran (sur cellulaire)*/
+
+@media screen and (max-width: 600px) {
+
+    .image_profil {
+        /* Settings d'image de profil*/
+        /*Dimensions des images*/
+        height: 200px;
+        width: 200px;
+    }
+
+    .image_realisation img {
+        /* Settings d'image de profil*/
+        /*Dimensions des images*/
+        height: 200px;
+        width: 200px;
+    }
+
+    .image_education {
+        /* Settings d'image de profil*/
+        /*Dimensions des images*/
+        height: 200px;
+        width: 200px;
+    }
+}
