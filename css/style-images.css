@@ -67,9 +67,33 @@
     border-color: #f9f7f7;
 }
 
+
+
 /* Grossir la typo de la page realisation */
 .image_realisation p {
     font-size: 20pt;
+}
+
+.image_validation {
+    padding: 25px;
+    /*Dimensions des images*/
+    height: 400px;
+    width: 500px;
+
+    /*Permet de scale aux dimensions*/
+    object-fit: scale-down;
+}
+
+
+@media screen and (min-width: 720px) {
+
+    /* Le hover change la couleur du border */
+    .image_realisation img:hover {
+        border-color: #112D4E;
+        height: 500px;
+        width: 500px;
+        transition-duration: 5s;
+    }
 }
 
 /* Lorsque l ecran est de 720px les images se reduise pour permettre de les afficher a l'ecran*/
@@ -132,5 +156,11 @@
         /*Dimensions des images*/
         height: 200px;
         width: 200px;
+    }
+
+    /* Pour version cellulaire, les images de validation se resize*/
+    .image_validation {
+        height: 250px;
+        width: 300px;
     }
 }
